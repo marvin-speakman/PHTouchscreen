@@ -1,0 +1,15 @@
+{
+  "short_name": "PH AP Big",
+  "name": "PH Property Holdings Alderley Park big screen experience",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#00483A",
+  "background_color": "#ffffff"
+}

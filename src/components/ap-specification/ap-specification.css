@@ -1,0 +1,116 @@
+.ap-spec {
+	padding-top: 20px;
+}
+
+.ap-spec__tabs {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	position: relative;
+}
+
+.ap-spec__tabs:before {
+	content: "";
+	width: 100%;
+	background: #fff;
+	position: absolute;
+	bottom: -190%;
+	height: 200%;
+	z-index: 3;
+}
+
+.ap-spec__tabs:after {
+	content: "";
+	width: 100%;
+	height: 200%;
+	background: radial-gradient(ellipse closest-side,rgba(0,0,0,.24),transparent);
+	position: absolute;
+	left: 0;
+	top: -20%;
+	z-index: 2;
+}
+
+.ap-spec__tab {
+	background: #fff;
+	padding: 20px;
+	text-transform: uppercase;
+	margin: 0 20px;
+	font-weight: bold;
+	position: relative;
+	z-index: 4;
+	min-width: 250px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 1.2rem;
+	opacity: 0;
+
+	transition: opacity 0.4s ease;
+}
+
+.ap-spec__tab.active {
+	opacity: 1;
+}
+
+.ap-spec__tab--silver {
+	color: silver;
+}
+
+.ap-spec__tab--gold {
+	color: gold;
+}
+
+.ap-spec__tab--platinum {
+	color: #d9d7d5;
+}
+
+.ap-spec__gallery {
+	position: relative;
+	z-index: 5;
+	display: flex;
+	justify-content: space-between;
+	margin: 60px auto 0;
+	max-width: 70rem;
+}
+
+.ap-spec__gallery-item {
+	width: calc(25% - 40px);
+}
+
+.ap-spec__gallery-item img {
+	height: 120px;
+	width: 100%;
+	object-position: center;
+	object-fit: cover;
+}
+
+.ap-spec__content {
+	position: relative;
+	z-index: 5;
+	color: #827f77;
+	max-width: 70rem;
+	margin: 40px auto 40px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.ap-spec__section {
+	width: calc(50% - 40px);
+	margin-bottom: 40px;
+	line-height: 1.6;
+}
+
+.ap-spec__section-heading {
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	margin-top: 20px;
+	letter-spacing: 1px;
+}
+
+.ap-spec__section-copy ul {
+	padding-left: 15px;
+}
+
+.ap-spec__section-copy ul li {
+	margin: 5px 0;
+}

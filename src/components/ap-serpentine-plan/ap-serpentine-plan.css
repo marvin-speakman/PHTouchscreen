@@ -1,0 +1,494 @@
+#plot-selector{
+  position: relative;
+}
+.touchHouse{
+  position: absolute;
+  width: 250px;
+  right: 100px;
+  top: 200px;
+}
+
+.viewSerp{
+  -webkit-animation: button 3s ease-in-out infinite;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  right: 30px;
+  position: absolute;
+  color: #000000;
+  border: 1px solid  #00483a;
+  background: #00483a;
+  padding: 3px 8px;
+  margin-top: 50px;
+}
+
+.alderley-top-down--the-serpentine{
+    position: relative;
+    width: 700px;
+    height: 800px;
+    margin: auto;
+    background: url('./img/the-serpentine.jpg');
+    background-size: 700px 800px;
+    background-repeat: no-repeat;
+}
+svg{
+  opacity: 0.1;
+  transition: all 1s ease-out ;
+  z-index: 5;
+}
+
+.js-plot-selector{
+  pointer-events: none;
+}
+
+svg path{
+  pointer-events: fill;
+}
+
+svg.active{
+  fill: #fff !important;
+  opacity: 0.8;
+  -webkit-filter: drop-shadow( -0px -0px 5px rgb(255, 255, 255) );
+  z-index: 3;
+}
+
+#plot-selector .ap-site-map__description {
+	  -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px 3px rgba(0,0,0,.5);
+    color: #827f77;
+    padding: 30px;
+    width: 20rem;
+    height: 630px;
+    position: absolute;
+    background: #fff;
+    top: 161px;
+    left: 100px;
+    line-height: 1.6;
+    opacity: 0;
+    visibility: visible;
+    font-family: 'EB Garamond', serif;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    pointer-events: all;
+    z-index: 10;
+}
+
+#plot-selector .ap-site-map__description:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#plot-selector .closeInfo, .close{
+	width: 20px;
+	height: 20px;
+	display: block;
+	padding-left: 25px;
+	/* border: 1px solid red; */
+	cursor: pointer;
+	pointer-events:all;
+
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+}
+
+#plot-selector .ap-site-map__description h2 {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+  /* border-bottom: 2px solid #827f77; */
+  font-size: 16px;
+}
+
+#plot-selector .ap-site-map__description p {
+	font-size: 1.1rem;
+}
+
+#plot-selector .ap-site-map__description img {
+	/* float: right; */
+	/* padding-left: 45px; */
+	padding-left: 5px;
+	position: relative;
+	margin: auto;
+	background-color: #fff;
+}
+
+/* #plot-selector .ap-site-map__description #view a, #plot-selector .ap-site-map__description #view a:visited{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  right: 30px;
+  position: absolute;
+  color: #827f77;
+} */
+
+.alderley-top-down--the-serpentine [data-property-id="1234"] {
+  position: absolute;
+  top: 14.7%;
+  left: 12%;
+  width: 8%;
+  height: 8%;
+}
+.alderley-top-down--the-serpentine [data-details-id="1234"] {
+  position: absolute;
+  top: 28%;
+  left: 10%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1236"] {
+  position: absolute;
+  top: 13.5%;
+  left: 19.4%;
+  width: 4.8%;
+  height: 9.5%;
+}
+.alderley-top-down--the-serpentine [data-details-id="1236"] {
+  position: absolute;
+  top: 28%;
+  left: 10%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1237"] {
+  top: 12.7%;
+  left: 24%;
+  width: 5.1%;
+  height: 10.5%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1237"] {
+  top: 28%;
+  left: 10%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1238"] {
+  top: 12.4%;
+  left: 28.7%;
+  width: 5.3%;
+  height: 11.1%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1238"] {
+  top: 28%;
+  left: 10%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1239"] {
+  top: 12.4%;
+  left: 33.8%;
+  width: 5%;
+  height: 11.1%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1239"] {
+  top: 28%;
+  left: 10%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1240"] {
+  top: 11.9%;
+  left: 38.6%;
+  width: 7.5%;
+  height: 12.2%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1240"] {
+  top: 28%;
+  left: 10%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1242"] {
+  top: 12.5%;
+  left: 43.1%;
+  width: 13.2%;
+  height: 13.9%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1242"] {
+  top: 28%;
+  left: 10%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1244"] {
+  top: 21.3%;
+  left: 37.1%;
+  width: 13.1%;
+  height: 13.1%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1244"] {
+  top: 45%;
+  left: 25%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1246"] {
+  top: 28%;
+  left: 35.4%;
+  width: 12.5%;
+  height: 11%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1246"] {
+  top: 45%;
+  left: 25%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1248"] {
+  top: 32.5%;
+  left: 33%;
+  width: 13.9%;
+  height: 7.5%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1248"] {
+  top: 45%;
+  left: 25%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1249"] {
+  top: 36.5%;
+  left: 30.2%;
+  width: 15.9%;
+  height: 7.5%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1249"] {
+  top: 45%;
+  left: 25%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1251"] {
+  top: 41.5%;
+  left: 28.5%;
+  width: 18.3%;
+  height: 9.2%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1251"] {
+  top: 60%;
+  left: 19%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1253"] {
+  top: 44.4%;
+  left: 30.5%;
+  width: 13.5%;
+  height: 15.3%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1253"] {
+  top: 60%;
+  left: 19%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1255"] {
+  top: 44.8%;
+  left: 44%;
+  width: 13.1%;
+  height: 15.3%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1255"] {
+  top: 60%;
+  left: 19%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1257"] {
+  top: 44.9%;
+  left: 54.2%;
+  width: 12.6%;
+  height: 12.6%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1257"] {
+  top: 60%;
+  left: 19%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1259"] {
+  top: 44%;
+  left: 64.1%;
+  width: 11.5%;
+  height: 12.6%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1259"] {
+  top: 60%;
+  left: 19%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1262"] {
+  top: 45.1%;
+  left: 73.5%;
+  width: 16.5%;
+  height: 16.6%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1262"] {
+  top: 60%;
+  left: 19%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1264"] {
+  top: 58%;
+  left: 62%;
+  width: 14.5%;
+  height: 15.6%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1264"] {
+  top: 28%;
+  left: 29%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1266"] {
+  top: 58.8%;
+  left: 54.4%;
+  width: 12.3%;
+  height: 16%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1266"] {
+  top: 28%;
+  left: 29%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1268"] {
+  top: 61.3%;
+  left: 44.2%;
+  width: 11.3%;
+  height: 13.4%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1268"] {
+  top: 28%;
+  left: 29%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1270"] {
+  top: 59.1%;
+  left: 28.1%;
+  width: 11.8%;
+  height: 13.4%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1270"] {
+  top: 28%;
+  left: 29%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1272"] {
+  top: 54.9%;
+  left: 19.3%;
+  width: 15.8%;
+  height: 15.4%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1272"] {
+  top: 28%;
+  left: 29%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1274"] {
+  top: 49.1%;
+  left: 15.9%;
+  width: 15.4%;
+  height: 15.4%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1274"] {
+  top: 28%;
+  left: 29%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1276"] {
+  top: 46.2%;
+  left: 12.4%;
+  width: 10.4%;
+  height: 10.4%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1276"] {
+  top: 28%;
+  left: 29%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1278"] {
+  top: 24.2%;
+  left: 17.3%;
+  width: 5.1%;
+  height: 7.4%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1278"] {
+  top: 47%;
+  left: 8%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1280"] {
+  top: 24.2%;
+  left: 21.4%;
+  width: 5.2%;
+  height: 7.8%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1280"] {
+  top: 47%;
+  left: 8%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1281"] {
+  top: 24.2%;
+  left: 25.8%;
+  width: 6.7%;
+  height: 8.6%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1281"] {
+  top: 47%;
+  left: 8%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1282"] {
+  top: 24.6%;
+  left: 28.3%;
+  width: 8.8%;
+  height: 9.5%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1282"] {
+  top: 47%;
+  left: 8%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1283"] {
+  top: 31.4%;
+  left: 17.7%;
+  width: 14.8%;
+  height: 7.8%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1283"] {
+  top: 47%;
+  left: 8%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1284"] {
+  top: 36.4%;
+  left: 17.7%;
+  width: 12%;
+  height: 8.8%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1284"] {
+  top: 47%;
+  left: 8%;
+}
+.alderley-top-down--the-serpentine [data-property-id="1286"] {
+  top: 36.5%;
+  left: 7.8%;
+  width: 12%;
+  height: 8.8%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1286"] {
+  top: 47%;
+  left: 8%;
+  width: 40rem;
+}
+.alderley-top-down--the-serpentine [data-property-id="1287"] {
+  top: 30.3%;
+  left: 8.3%;
+  width: 9.7%;
+  height: 6.9%;
+  position: absolute;
+}
+.alderley-top-down--the-serpentine [data-details-id="1287"] {
+  top: 47%;
+  left: 8%;
+  width: 40rem;
+}
+.alderley-top-down--the-serpentine [data-details-id="1287"].animating {
+  animation-name: thumbnail_slide_large;
+}
+.alderley-top-down--the-serpentine [data-property-id="1289"] {
+  top: 23.9%;
+  left: 8.5%;
+  width: 9.7%;
+  height: 8%;
+  position: absolute;
+}

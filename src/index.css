@@ -1,0 +1,91 @@
+html {
+	box-sizing: border-box;
+	height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  outline: 0;
+}
+
+body {
+	margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height: 100%;
+}
+
+.sans{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.holds-the-iframe{
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 100%;
+	height: 100%;
+	width: 100%;
+	z-index: 200;
+	background: #FFFFFF url(./alderley_park_logo.gif) no-repeat ;
+	background-position: center center;
+	background-size: 500px;
+	z-index: 200;
+	transition: all 1s ease-out;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'EB Garamond', serif;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input,
+button,
+textarea {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+}
+
+.ph-app {
+	padding-bottom: 100px;
+}
+
+.ap-section {
+	padding: 6rem 0;
+}
+
+.ap-section__heading {
+	font-size: 1.6rem;
+	font-family: 'EB Garamond', serif;
+	color: #827f77;
+	letter-spacing: 0.18rem;
+	text-align: center;
+	margin: 0 0 4rem;
+	text-transform: uppercase;
+	z-index: 20;
+}
+
+#root{
+	height: 100%;
+	width: 100%;
+}
+
+/* hide the scroll bar */
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+::-webkit-scrollbar {
+	width: 0px;  /* remove scrollbar space */
+	background: transparent;  /* optional: just make scrollbar invisible */
+}

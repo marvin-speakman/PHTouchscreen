@@ -1,0 +1,188 @@
+.ap-filter {
+	background: #827f77;
+	color: #fff;
+	box-shadow: 0 0 10px 3px rgba(0,0,0,.5);
+	position: relative;
+	z-index: 3;
+}
+
+.ap-filter h2 {
+	color: #fff;
+}
+
+.ap-filter__wrapper {
+	max-width: 70rem;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ap-filter__section {
+	padding: 0 2rem;
+	border-left: 1px solid #fff;
+	flex-grow: 1;
+}
+
+.ap-filter__section:first-child {
+	padding-left: 0;
+	border-left: 0;
+}
+
+.ap-filter__section:last-child {
+	padding-right: 0;
+}
+
+.ap-filter__slider {
+	/* display: flex;
+	justify-content: space-between; */
+	margin-top: 4rem;
+	align-items: center;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+.ap-filter__price-range {
+	/* margin-top: 3rem; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.ap-filter__price {
+	background: rgba(0,72,58,0.9);
+	padding: 0.5rem;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	text-align: center;
+	width: 150px;
+	letter-spacing: 0.5px;
+}
+
+.ap-filter__option {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.ap-filter__option:last-child {
+	margin-bottom: 0;
+}
+
+.ap-filter__label {
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	min-width: 7.5rem;
+}
+
+.ap-filter__checkboxes {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+}
+
+.ap-filter__checkboxes label {
+	margin-right: 1rem;
+	font-family: 'EB Garamond', serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.ap-filter__checkboxes label:last-child {
+	margin-right: 0;
+}
+
+.ap-filter__checkboxes label input {
+	margin: 0 0.5rem 0 0;
+}
+
+.ap-filter__button {
+	background: none;
+	border: 1px solid #fff;
+	padding: 0.5rem 1rem;
+	text-transform: uppercase;
+	color: #fff;
+	display: block;
+	font-size: 0.8rem;
+	text-align: center;
+	width: 5rem;
+	margin-bottom: 1rem;
+	outline: 0;
+}
+
+.ap-filter__button:last-child {
+	margin-bottom: 0;
+}
+
+.slider {
+	/* top: -2px; */
+	width: 300px;
+	margin-left: 1rem;
+}
+
+.slider .bar, .rc-slider-track {
+	height: 6px;
+	background: rgba(0,72,58,.3) !important;
+	border: 1px solid rgba(0,72,58,.9) !important;
+}
+
+.slider .bar-1 {
+	background: rgba(0,72,58,0.9);
+}
+
+.slider .handle, .rc-slider-handle {
+	 height: 40px !important;
+	width: 40px !important;
+	/*background: #fff;
+	border-radius: 50%;
+	display: block;
+	position: relative;
+	top: -6.5px; */
+	position: absolute;
+    /* margin-left: -20px; */
+	margin-top: -20px !important;
+	margin-left: -20px !important; 
+    /* width: 14px;
+    height: 14px; */
+    cursor: pointer;
+    cursor: -webkit-grab;
+    cursor: grab;
+    border-radius: 50%;
+    border: solid 2px rgba(0,72,58,0.9) !important;
+    background-color: #fff;
+    -ms-touch-action: pan-x;
+    touch-action: pan-x;
+}
+
+.rc-slider-handle:focus {
+    border-color: rgba(0,72,58,0.9) !important;
+    -webkit-box-shadow: 0 0 0 0px #96dbfa !important;
+    box-shadow: 0 0 0 0px #96dbfa !important;
+    outline: none;
+}
+
+.rc-slider-dot {
+    position: absolute;
+    bottom: -2px;
+    margin-left: -4px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(0,72,58,0.9) !important;
+    background-color: rgba(0,72,58,0.9) !important;
+    cursor: pointer;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.rc-slider-mark-text {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    top: -60px;
+	color: #666 !important;
+}
+
+.rc-slider-mark-text-active{
+	color: rgb(255, 255, 255) !important;
+}

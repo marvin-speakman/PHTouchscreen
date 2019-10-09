@@ -1,0 +1,424 @@
+#plot-selector{
+  position: relative;
+}
+.touchHouse{
+  position: absolute;
+  width: 250px;
+  right: 100px;
+  top: 200px;
+}
+.touchArrow{
+  position: absolute;
+  left: 50px;
+  top: 15px;
+  height: 200px;
+  -webkit-animation: house 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes house 
+{       
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+}
+
+.touchText{
+  position: absolute;
+  z-index: 2;
+  top: 90px;
+  left: 110px;
+  width: 200px;
+}
+.viewCS{
+  -webkit-animation: button 3s ease-in-out infinite;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  right: 30px;
+  position: absolute;
+  color: #000000;
+  border: 1px solid  #00483a;
+  background: #00483a;
+  padding: 3px 8px;
+  margin-top: 50px;
+}
+
+@-webkit-keyframes button 
+{       
+    0% {
+        background-color: #00483a;
+        color: #fff;
+    }
+    25%{
+      background-color: #ffffff;
+      color: #00483a;
+    }
+    50%,
+    100% {
+      background-color: #00483a;
+      color: #fff;
+    }
+}
+.alderley-top-down--cedar-square{
+    position: relative;
+    width: 700px;
+    height: 800px;
+    margin: auto;
+    background: url('./img/cedar_square_plan.png');
+    background-size: 700px 800px;
+    background-repeat: no-repeat;
+}
+svg{
+  color: white;
+  opacity: 0.1;
+  transition: all 1s ease-out ;
+}
+svg.active{
+  opacity: 0.8;
+  -webkit-filter: drop-shadow( -0px -0px 5px rgb(0, 0, 0) );
+}
+
+#plot-selector .ap-site-map__description {
+	  -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px 3px rgba(0,0,0,.5);
+    color: #827f77;
+    padding: 30px;
+    width: 20rem;
+    height: 630px;
+    position: absolute;
+    background: #fff;
+    top: 161px;
+    left: 100px;
+    line-height: 1.6;
+    /* opacity: 0; */
+    display: none;
+    font-family: 'EB Garamond', serif;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    pointer-events: all;
+    z-index: 10;
+}
+
+#plot-selector .ap-site-map__description:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#plot-selector .closeInfo, .close{
+	width: 20px;
+	height: 20px;
+	display: block;
+	padding-left: 25px;
+	/* border: 1px solid red; */
+	cursor: pointer;
+	pointer-events:all;
+
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+}
+
+#plot-selector .ap-site-map__description h2 {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+  font-size: 16px;
+}
+
+#plot-selector .ap-site-map__description p {
+	font-size: 1.1rem;
+}
+
+#plot-selector .ap-site-map__description img {
+	padding-left: 5px;
+	position: relative;
+	margin: auto;
+	background-color: #fff;
+}
+
+.alderley-top-down--cedar-square [data-property-id="469"] {
+  position: absolute;
+  width: 144px;
+  height: 170px;
+  top: 68px;
+  left: 17px;
+  }
+  .alderley-top-down--cedar-square [data-property-id="473"] {
+    position: absolute;
+    width: 74px;
+    height: 148px;
+    top: 69px;
+    left: 85px;
+  }
+
+  .alderley-top-down--cedar-square [data-property-id="440"] {
+    position: absolute;
+    width: 50px;
+    height: 149px;
+    top: 70px;
+    left: 143px;
+  }
+
+  .alderley-top-down--cedar-square [data-property-id="445"] {
+    position: absolute;
+    width: 50px;
+    height: 134px;
+    top: 69px;
+    left: 178px;
+  }
+
+  .alderley-top-down--cedar-square [data-property-id="446"] {
+    position: absolute;
+    width: 50px;
+    height: 134px;
+    top: 69px;
+    left: 213px;
+  }
+
+  .alderley-top-down--cedar-square [data-property-id="447"] {
+    position: absolute;
+    width: 50px;
+    height: 134px;
+    top: 69px;
+    left: 246px;
+  }
+
+  .alderley-top-down--cedar-square [data-property-id="448"] {
+    position: absolute;
+    width: 50px;
+    height: 134px;
+    top: 69px;
+    left: 281px;
+  }
+
+  .alderley-top-down--cedar-square [data-property-id="474"] {
+    position: absolute;
+    width: 61px;
+    height: 163px;
+    top: 69px;
+    left: 328px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="474"] {
+    top: 28%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="478"] {
+    position: absolute;
+    width: 84px;
+    height: 170px;
+    top: 51px;
+    left: 378px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="478"] {
+    top: 28%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="270"] {
+    position: absolute;
+    width: 147px;
+    height: 40px;
+    top: 236px;
+    left: 282px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="270"] {
+    top: 47%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="271"] {
+    position: absolute;
+    width: 147px;
+    height: 40px;
+    top: 270px;
+    left: 282px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="271"] {
+    top: 47%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="272"] {
+    position: absolute;
+    width: 147px;
+    height: 40px;
+    top: 302px;
+    left: 282px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="272"] {
+    top: 47%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="273"] {
+    position: absolute;
+    width: 147px;
+    height: 40px;
+    top: 337px;
+    left: 279px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="273"] {
+    top: 47%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="453"] {
+    position: absolute;
+    width: 154px;
+    height: 41px;
+    top: 372px;
+    left: 277px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="453"] {
+    top: 47%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="266"] {
+    position: absolute;
+    width: 64px;
+    height: 141px;
+    top: 412px;
+    left: 385px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="266"] {
+    bottom: 55%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="267"] {
+    position: absolute;
+    width: 54px;
+    height: 148px;
+    top: 412px;
+    left: 349px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="267"] {
+    bottom: 55%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="264"] {
+    position: absolute;
+    width: 66px;
+    height: 151px;
+    top: 412px;
+    left: 306px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="264"] {
+    bottom: 55%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="265"] {
+    position: absolute;
+    width: 62px;
+    height: 149px;
+    top: 414px;
+    left: 272px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="265"] {
+    bottom: 55%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="269"] {
+    position: absolute;
+    width: 66px;
+    height: 151px;
+    top: 414px;
+    left: 233px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="269"] {
+    bottom: 55%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="268"] {
+    position: absolute;
+    width: 66px;
+    height: 146px;
+    top: 420px;
+    left: 197px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="268"] {
+    bottom: 55%;
+    left: 22%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="262"] {
+    position: absolute;
+    width: 72px;
+    height: 149px;
+    top: 430px;
+    left: 90px;
+    z-index: 2;
+  }
+  .alderley-top-down--cedar-square [data-details-id="262"] {
+    bottom: 55%;
+    left: 17%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="263"] {
+    position: absolute;
+    width: 132px;
+    height: 192px;
+    top: 426px;
+    left: 29px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="263"] {
+    bottom: 55%;
+    left: 17%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="457"] {
+    position: absolute;
+    width: 146px;
+    height: 42px;
+    top: 390px;
+    left: 29px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="457"] {
+    top: 20%;
+    left: 34%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="461"] {
+    position: absolute;
+    width: 146px;
+    height: 42px;
+    top: 354px;
+    left: 29px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="461"] {
+    top: 20%;
+    left: 34%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="462"] {
+    position: absolute;
+    width: 146px;
+    height: 42px;
+    top: 321px;
+    left: 29px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="462"] {
+    top: 20%;
+    left: 34%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="463"] {
+    position: absolute;
+    width: 146px;
+    height: 42px;
+    top: 287px;
+    left: 29px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="463"] {
+    top: 20%;
+    left: 34%;
+  }
+  .alderley-top-down--cedar-square [data-property-id="464"] {
+    position: absolute;
+    width: 147px;
+    height: 47px;
+    top: 245px;
+    left: 29px;
+  }
+  .alderley-top-down--cedar-square [data-details-id="464"] {
+    top: 20%;
+    left: 34%;
+  }
+  

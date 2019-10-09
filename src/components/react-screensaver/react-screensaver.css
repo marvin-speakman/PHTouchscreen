@@ -1,0 +1,60 @@
+.ph-screensaver {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 300;
+	transform: translate(0, 0);
+	transition: transform 0.75s ease;
+}
+
+.ph-screensaver.inactive {
+	transform: translate(0, -101%);
+}
+
+.ph-screensaver__wrapper {
+	background: #827f77;
+	font-family: 'EB Garamond', serif;
+	text-transform: uppercase;
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+
+.ph-screensaver__video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	transform: translate(-50%, -50%);
+}
+
+.ph-screensaver__message {
+	position: relative;
+	background: rgba(130, 127, 119, 0.75);
+	padding: 1rem 2rem;
+	position: relative;
+	color: #fff;
+	z-index: 2;
+	font-size: 1.5rem;
+	border: 2px solid #fff;
+	/* text-align: center; */
+	letter-spacing: 0.2em;
+	margin-top: 175px;
+}
+.screenLogo{
+	position: absolute;
+    /* display: block; */
+    top: 50%;
+    margin-top: -175px;
+    left: 50%;
+    margin-left: -85px;
+    z-index: 100;
+}

@@ -1,0 +1,29 @@
+.ap-dev-selector {
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0 0 10px 3px rgba(0,0,0,.5);
+}
+
+.ap-dev-selector__link {
+	width: 33.333%;
+	flex-grow: 1;
+	display: block;
+}
+
+.ap-dev-selector__img {
+	display: block;
+	width: 100%;
+}
+
+.ap-dev-selector__name {
+	display: block;
+	font-family: 'EB Garamond', serif;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.1rem;
+	text-align: center;
+	background: #827f77;
+	font-size: 1.1rem;
+	padding: 0.5rem 1rem;
+}

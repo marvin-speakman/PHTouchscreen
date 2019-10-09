@@ -1,0 +1,452 @@
+.ap-site-map {
+	/* max-width: 70rem; */
+	position: relative;
+	max-width: 1000px;
+	height: 850px;
+	margin: auto;
+	margin-top: -15px;
+	padding: 0px 0;
+}
+.apLogo{
+    position: absolute;
+    width: 300px;
+    top: 70px;
+    left: -70px;
+    z-index: 10;
+}
+.mainHeading{
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	z-index: 20;
+}
+.closeApp{
+    position: fixed;
+    width: 100px;
+    top: -70px;
+    left: 50px;
+    z-index: 50;
+    transition: all 1s ease-out;
+}
+.closeApp img, .closeApp span{
+    float: left;
+    color: #827f77;
+    /* text-shadow: 4px 4px 2px rgba(150, 150, 150, 1); */
+}
+.closeApp img{
+    width: 30px;
+}
+.closeApp span{
+    font-size: 14px;
+    padding: 7px 0 0 14px;
+}
+.mainBack{
+	position: relative;
+	left: -20px;
+}
+.ap-site-map__map-wrapper {
+	position: relative;
+	top: 50px;
+}
+
+.ap-site-map__map {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.ap-site-map__description {
+	box-shadow: 0 0 10px 3px rgba(0,0,0,.5);
+	color: #827f77;
+	padding: 30px;
+	width: 20rem;
+	position: absolute;
+	background: #fff;
+	top: 60px;
+	left: 810px;
+	line-height: 1.6;
+	opacity: 0;
+	visibility: hidden;
+	font-family: 'EB Garamond', serif;
+	transition: all 1s ease;
+	pointer-events: none;
+	z-index: 10;
+}
+
+/* .swiper{
+    position: absolute;
+    right: -150px;
+    top: 400px;
+    transition: all 1s ease;
+    -webkit-animation: swipe 3s ease-in-out infinite;
+} */
+
+.ap-site-map__description:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.closeInfo, .close{
+	width: 20px;
+	height: 20px;
+	display: block;
+	padding-left: 25px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	cursor: pointer;
+	pointer-events:all;
+	background: url('./img/close.png');
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+}
+
+.ap-site-map__description h2 {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.ap-site-map__description p {
+	font-size: 1.1rem;
+}
+
+.ap-site-map__description img {
+	/* float: right; */
+	/* padding-left: 45px; */
+	padding-left: 5px;
+	position: relative;
+	margin: auto;
+	background-color: #fff;
+}
+.ap-site-map__triggers{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+#scrollDown.mapPage{
+    color: #827f77;
+    top: 780px;
+}
+#scrollDown.mapPage span{
+    color: #827f77;
+    border-left: 2px solid #827f77;
+	border-bottom: 2px solid #827f77;
+}
+/* Swipe animation */
+/* @-webkit-keyframes swipe 
+{       
+    50%, 100% {
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+} */
+
+/* Pulse animation */
+@-webkit-keyframes pulse 
+{       
+  0% {-webkit-transform: scale(0); opacity: 0;}
+  8% {-webkit-transform: scale(0); opacity: 0;}
+  15% {-webkit-transform: scale(0.1); opacity: 1;}
+  30% {-webkit-transform: scale(0.5); opacity: 1;}
+  100% {opacity: 0; -webkit-transform: scale(1);}
+}
+
+@-moz-keyframes pulse 
+{       
+  0% {-moz-transform: scale(0); opacity: 0;}
+  8% {-moz-transform: scale(0); opacity: 0;}
+  15% {-moz-transform: scale(0.1); opacity: 1;}
+  30% {-moz-transform: scale(0.5); opacity: 1;}
+  100% {opacity: 0; -moz-transform: scale(1);}
+}
+
+.pulse_holder, .ap-site-map__overlay
+{
+  display: block;
+  position: absolute;
+  transform: opacity 1s ease;
+  transform: visibility 0s;
+}
+.ap-site-map__overlay{
+	text-shadow: 10px 10px 5px #888888;
+}
+.pulse_holder{
+	z-index: 19;
+}
+
+/* farm */
+.farm{
+	top: 130px;
+	left: 545px;
+}
+.farmO{
+	top: 98px;
+    left: 521px;
+	opacity: 0.7;
+}
+
+/* walks */
+.walk{
+    top: 270px;
+    left: 472px;
+}
+.walkO{
+	top: 98px;
+    left: 279px;
+	opacity: 0.7;
+}
+
+/* The Ride */
+.ride{
+    top: 466px;
+    left: 88px;
+}
+.rideO{
+    top: 378px;
+    left: -10px;
+	width: 160px;
+	z-index: 10;
+}
+.rideFlag{
+    height: 39px;
+    display: block;
+    width: 125px;
+    position: absolute;
+    top: 74px;
+    left: 0px;
+}
+/* You are here */
+
+.youO{
+    top: 378px;
+    left: -1px;
+    width: 160px;
+    z-index: 10;
+}
+.cottage{
+    top: 240px;
+    left: 59px;
+}
+
+/* Cedar */
+.cedar{
+    top: 349px;
+    left: 469px;
+}
+.cedarO{
+	top: 336px;
+    left: 239px;
+    width: 253px;
+}
+.cedarFlag{
+    height: 39px;
+    display: block;
+    width: 155px;
+    position: absolute;
+    top: -2px;
+    left: 100px;
+}
+.cedarInfozoom{
+	/* position: absolute; */
+	transform: translate3d(0,0,0) rotate(0deg);
+	transition: all 2s ease-out ;
+	top:0px;
+	left: 160px;
+	width: 70%;
+	height: 70%;
+	z-index: 50;
+	transform-style: preserve-3d;
+	perspective: 1000;
+	backface-visibility: hidden;  
+	-webkit-backface-visibility: hidden;
+	-webkit-transform-style: preserve-3d; 
+	-webkit-transform: rotateZ(2deg);
+}
+
+/* Sepentine */
+.serpent{
+    top: 602px;
+    left: 168px;
+}
+.serpentO{
+	top: 425px;
+    left: 19px;
+    /* opacity: 0.7; */
+    width: 305px;
+}
+.serpentFlag{
+    height: 39px;
+    display: block;
+    width: 175px;
+    position: absolute;
+    top: 162px;
+    left: -2px;
+}
+/* future Development */
+
+.future{
+	top: 531px;
+    left: 476px;
+}
+.futureO{
+	top: 356px;
+    left: 119px;
+	/* opacity: 0.7; */
+}
+
+/* future 2 */
+.future2{
+    top: 421px;
+    left: 159px;
+}
+
+/* future ph */
+.futureph{
+    top: 424px;
+    left: 322px;
+}
+
+/* Arboretum */
+.arboretumO{
+	top: 413px;
+    left: 179px;
+	/* opacity: 0.7; */
+}
+
+.arboretum{
+	top: 438px;
+    left: 224px;
+}
+
+/* Water Gardens */
+.water_gardensO{
+	top: 329px;
+    left: 172px;
+}
+
+.water_gardens{
+	top: 379px;
+    left: 207px;
+}
+
+/* leisure */
+.leisureO{
+	top: 406px;
+    left: 499px;
+}
+
+.leisure{
+	top: 429px;
+    left: 524px;
+}
+
+/* science */
+.scienceO{
+	top: 107px;
+    left: 447px;
+}
+
+.science{
+	top: 320px;
+    left: 624px;
+}
+
+/* courtyard */
+.courtyardO{
+	top: 306px;
+    left: 224px;
+}
+
+.courtyard{
+	top: 356px;
+    left: 269px;
+}
+
+/* lake */
+/* .lakeO{
+	top: 306px;
+    left: 224px;
+} */
+
+.lake{
+    top: 266px;
+    left: 739px;
+}
+
+/* cricket */
+/* .cricketO{
+	top: 306px;
+    left: 224px;
+} */
+
+.cricket{
+    top: 348px;
+    left: 120px;
+}
+
+.you{
+	position: absolute;
+    left: -92px;
+    max-width: 210px !important;
+    top: -154px;
+    z-index: 9;
+}
+
+.key0{
+    width: 400px;
+    position: relative;
+    top: 10px;
+    left: -220px;
+}
+.key{
+    position: absolute;
+    left: 86px;
+    top: 5px;
+}
+.pulse_holder .pulse_marker 
+{
+  width: 10px;
+  height: 10px;
+  /* background: #FFFFFF; */
+  border: 1px solid white;
+  border-radius: 28px;
+  opacity: 0.7;
+}
+
+.pulse_holder .pulse_rays 
+{
+  margin: 0 auto;
+  border-radius: 100px;
+  position: absolute;
+  right: -27px;
+  top: -27px;
+  z-index: 5;
+  background-color: transparent;
+  opacity: 0.1;
+  width: 64px;
+  height: 64px;
+  border: 2px solid rgb(255, 255, 255);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+  -ms-border-radius: 100px;
+  border-radius: 100px;
+  /* Giving Animation Function */
+  -webkit-animation: pulse 1.5s linear infinite;
+  -moz-animation: pulse 1.5s linear infinite; 
+  border-image: initial;
+}
+
+.pulse_holder.key .pulse_rays{
+	border: 2px solid #adadad;
+}
+.pulse_holder.key .pulse_marker{
+	border: 1px solid #adadad;
+}

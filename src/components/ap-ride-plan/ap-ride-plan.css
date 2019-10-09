@@ -1,0 +1,293 @@
+#plot-selector{
+  position: relative;
+}
+.touchHouse{
+  position: absolute;
+  width: 250px;
+  right: 100px;
+  top: 200px;
+}
+
+.viewRi{
+  -webkit-animation: button 3s ease-in-out infinite;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  right: 30px;
+  position: absolute;
+  color: #000000;
+  border: 1px solid  #00483a;
+  background: #00483a;
+  padding: 3px 8px;
+  margin-top: 50px;
+}
+.alderley-top-down--the-ride{
+    position: relative;
+    width: 800px;
+    height: 900px;
+    margin: auto;
+    background: url('./img/ride_plan.png');
+    background-size: 800px 900px;
+    background-repeat: no-repeat;
+}
+svg{
+  color: white;
+  opacity: 0.1;
+  transition: all 1s ease-out ;
+}
+svg.active{
+  opacity: 0.8;
+  -webkit-filter: drop-shadow( -0px -0px 5px rgb(0, 0, 0) );
+}
+
+#plot-selector .ap-site-map__description {
+	  -webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 10px 3px rgba(0,0,0,.5);
+    color: #827f77;
+    padding: 30px;
+    width: 20rem;
+    height: 630px;
+    position: absolute;
+    background: #fff;
+    top: 161px;
+    left: 100px;
+    line-height: 1.6;
+    opacity: 0;
+    visibility: visible;
+    font-family: 'EB Garamond', serif;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    pointer-events: all;
+    z-index: 10;
+}
+
+#plot-selector .ap-site-map__description:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#plot-selector .closeInfo, .close{
+	width: 20px;
+	height: 20px;
+	display: block;
+	padding-left: 25px;
+	/* border: 1px solid red; */
+	cursor: pointer;
+	pointer-events:all;
+
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+}
+
+#plot-selector .ap-site-map__description h2 {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+  /* border-bottom: 2px solid #827f77; */
+  font-size: 16px;
+}
+
+#plot-selector .ap-site-map__description p {
+	font-size: 1.1rem;
+}
+
+#plot-selector .ap-site-map__description img {
+	/* float: right; */
+	/* padding-left: 45px; */
+	padding-left: 5px;
+	position: relative;
+	margin: auto;
+	background-color: #fff;
+}
+
+.alderley-top-down--the-ride [data-property-id="1089"] {
+  position: absolute;
+  width: 14.2%;
+  height: 21.7%;
+  top: 10.8%;
+  left: 21.6%;
+}
+
+.alderley-top-down--the-ride [data-details-id="1089"] {
+  top: 35%;
+  left: 16%;
+  width: 40rem
+}
+
+.alderley-top-down--the-ride [data-details-id="1089"].animating {
+  -webkit-animation-name: thumbnail_slide_large;
+  animation-name: thumbnail_slide_large
+}
+
+.alderley-top-down--the-ride [data-property-id="1104"] {
+  width: 11.7%;
+  height: 8%;
+  top: 31.7%;
+  left: 26%;
+  position: absolute;
+}
+
+.alderley-top-down--the-ride [data-details-id="1104"] {
+  top: 7%;
+  left: 39%
+}
+
+.alderley-top-down--the-ride [data-property-id="1105"] {
+  position: absolute;
+  width: 10.2%;
+  height: 7.6%;
+  top: 38.9%;
+  left: 26.9%
+}
+
+.alderley-top-down--the-ride [data-details-id="1105"] {
+  top: 7%;
+  left: 39%
+}
+
+.alderley-top-down--the-ride [data-property-id="1106"] {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 46%;
+  left: 24.4%
+}
+
+.alderley-top-down--the-ride [data-details-id="1106"] {
+  top: 7%;
+  left: 39%
+}
+
+.alderley-top-down--the-ride [data-property-id="1107"] {
+  position: absolute;
+  width: 12%;
+  height: 21.5%;
+  top: 40%;
+  left: 36.5%
+}
+
+.alderley-top-down--the-ride [data-details-id="1107"] {
+  top: 7%;
+  left: 39%
+}
+
+.alderley-top-down--the-ride [data-property-id="1108"] {
+  position: absolute;
+  width: 13%;
+  height: 13%;
+  top: 39.6%;
+  left: 44%;
+  z-index: 2
+}
+
+.alderley-top-down--the-ride [data-details-id="1108"] {
+  top: 7%;
+  left: 39%
+}
+
+.alderley-top-down--the-ride [data-property-id="1109"] {
+  position: absolute;
+  width: 15.3%;
+  height: 12.8%;
+  top: 36.2%;
+  left: 55.5%
+}
+
+.alderley-top-down--the-ride [data-details-id="1109"] {
+  top: -2%;
+  left: 0
+}
+
+.alderley-top-down--the-ride [data-property-id="1110"] {
+  position: absolute;
+  width: 13%;
+  height: 13%;
+  top: 32%;
+  left: 64%
+}
+
+.alderley-top-down--the-ride [data-details-id="1110"] {
+  top: -2%;
+  left: 0
+}
+
+.alderley-top-down--the-ride [data-property-id="1111"] {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 20.8%;
+  left: 65.3%
+}
+
+.alderley-top-down--the-ride [data-details-id="1111"] {
+  top: -2%;
+  left: 0
+}
+
+.alderley-top-down--the-ride [data-property-id="1116"] {
+  position: absolute;
+  width: 15%;
+  height: 13.8%;
+  top: 25.4%;
+  left: 54.1%
+}
+
+.alderley-top-down--the-ride [data-details-id="1116"] {
+  top: 45%;
+  left: 22%
+}
+
+.alderley-top-down--the-ride [data-property-id="1112"] {
+  position: absolute;
+  width: 14%;
+  height: 19%;
+  top: 8%;
+  left: 56.2%
+}
+
+.alderley-top-down--the-ride [data-details-id="1112"] {
+  top: 45%;
+  left: 22%
+}
+
+.alderley-top-down--the-ride [data-property-id="1113"] {
+  position: absolute;
+  width: 11.5%;
+  height: 12.8%;
+  top: 11.5%;
+  left: 46.2%
+}
+
+.alderley-top-down--the-ride [data-details-id="1113"] {
+  top: 45%;
+  left: 22%
+}
+
+.alderley-top-down--the-ride [data-property-id="1114"] {
+  position: absolute;
+  width: 16.6%;
+  height: 16.7%;
+  top: 11.2%;
+  left: 32.7%
+}
+
+.alderley-top-down--the-ride [data-details-id="1114"] {
+  top: 45%;
+  left: 22%
+}
+
+.alderley-top-down--the-ride [data-property-id="1115"] {
+  position: absolute;
+  width: 18.1%;
+  height: 20%;
+  top: 26.9%;
+  left: 35.5%
+}
+
+.alderley-top-down--the-ride [data-details-id="1115"] {
+  top: 45%;
+  left: 22%
+}
